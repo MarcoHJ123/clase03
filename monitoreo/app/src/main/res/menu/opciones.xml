@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dyd.damo.pexportlecturas.OpcionesActivity" >
+
+    <item
+        android:id="@+id/back_dashboard"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="@string/action_settings"
+        app:showAsAction="always"/>
+
+     <item
+        android:id="@+id/back_cuadrillas"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Regresar Listado"
+        app:showAsAction="always"/>
+</menu>

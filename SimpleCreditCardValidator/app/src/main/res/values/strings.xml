@@ -1,0 +1,13 @@
+<resources>
+
+
+    <string name="app_name">Simple validador de tarjeta de crédito</string>
+    <string name="activity_main">Ingrese el número de tarjeta de crédito</string>
+    <string name="activity_success">Tarjeta de crédito válida</string>
+    <string name="credit_card_validation_success_name">Tarjeta de crédito válida</string>
+    <string name="credit_card_validation_success_message">El número de la tarjeta de crédito es válido</string>
+    <string name="validate_credit_card_label">Validar tarjeta de crédito</string>
+    <string name="credit_card_number_hint">Número de tarjeta de crédito</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

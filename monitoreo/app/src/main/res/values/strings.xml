@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Monitoring</string>
+    <string name="title_activity_quadrilles">Quadrilles</string>
+    <string name="title_activity_quadrille">Quadrille</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="title">Site Supervision System</string>
+    <string name="logo">Logo</string>
+    <string name="loading">Loading...</string>
+    <string name="sign_in_ok">Welcome, wait, we are redirecting the main page</string>
+    <string name="sign_in_out">Welcome, wait, we are redirecting the main page</string>
+    <string name="nombre_tecnico">Name of Technician</string>
+    <string name="id">Id</string>
+    <string name="label_chart_downloaded">Downloaded</string>
+    <string name="label_chart_finished">Finished</string>
+    <string name="label_chart_generated">Generated</string>
+    <string name="label_chart_pending">Pending</string>
+    <string name="description_chart">Monitoring by states</string>
+    <string name="action_settings">Dashboard</string>
+</resources>

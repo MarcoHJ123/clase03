@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.com.gescom.acsion.monitoreo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MonitoreoApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="monitoreo.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="5" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="pe.com.gescom.acsion.monitoreo" />
+
+        <activity
+            android:name=".activities.SignInActivity"
+            android:theme="@style/AppTheme.SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity">
+        </activity>
+        <activity
+            android:name=".activities.QuadrillesActivity"
+            android:label="@string/title_activity_quadrilles">
+
+        </activity>
+        <activity
+            android:name=".activities.QuadrilleActivity"
+            android:label="@string/title_activity_quadrille">
+
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="11ff1319ea67daa5490a12b55d424a535d8ab0b6" />
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "129856915386",
+    "firebase_url": "https://acsion-monitoreo.firebaseio.com",
+    "project_id": "acsion-monitoreo",
+    "storage_bucket": "acsion-monitoreo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129856915386:android:9eb433f4a46dcdcf",
+        "android_client_info": {
+          "package_name": "pe.com.gescom.acsion.monitoreo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129856915386-bku4cohv8dh7abd3trd9vj1bh24rb5r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.com.gescom.acsion.monitoreo",
+            "certificate_hash": "24A62FC8E794708EEE4EA9814EFA96231E89384F"
+          }
+        },
+        {
+          "client_id": "129856915386-563k0r28vu2gt755oved165asivt3ptl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm7xJk8f_83gEwlcbysc5mookI-gn9ddQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129856915386-563k0r28vu2gt755oved165asivt3ptl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
